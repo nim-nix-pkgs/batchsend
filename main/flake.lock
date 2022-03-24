@@ -26,45 +26,18 @@
         "flakeNimbleLib": [
           "flakeNimbleLib"
         ],
-        "nimpy-master": "nimpy-master",
         "nixpkgs": [
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1648107895,
-        "narHash": "sha256-rZUlS62zPRSDuLjpjflvz8frsqj1AMTkl+L1fNu63QE=",
-        "owner": "nim-nix-pkgs",
-        "repo": "nimpy",
-        "rev": "ba57e8b80268db9a7c3a7e7494cf19d9f246fa70",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "nimpy",
-        "type": "github"
-      }
-    },
-    "nimpy-master": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "nimpy",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "nimpy",
           "nixpkgs"
         ],
         "src-nimpy-master": "src-nimpy-master"
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1648107895,
-        "narHash": "sha256-rZUlS62zPRSDuLjpjflvz8frsqj1AMTkl+L1fNu63QE=",
+        "lastModified": 1648163379,
+        "narHash": "sha256-O9wuU0UDWdkPMKLUoGV5fkq9iDUFDDe2ogY3F1Zv+VE=",
         "owner": "nim-nix-pkgs",
         "repo": "nimpy",
-        "rev": "ba57e8b80268db9a7c3a7e7494cf19d9f246fa70",
+        "rev": "92e7e9292f56014c9d7cb3f55fceaab0f53dac0d",
         "type": "github"
       },
       "original": {
