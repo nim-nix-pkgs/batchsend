@@ -11,6 +11,7 @@
   inputs.src-batchsend-main.ref   = "refs/heads/main";
   inputs.src-batchsend-main.owner = "marcomq";
   inputs.src-batchsend-main.repo  = "batchsend";
+  inputs.src-batchsend-main.dir   = "";
   inputs.src-batchsend-main.type  = "github";
   
   inputs."nimpy".owner = "nim-nix-pkgs";
