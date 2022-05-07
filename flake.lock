@@ -1,5 +1,33 @@
 {
   "nodes": {
+    "batchsend-main": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nimpy": "nimpy",
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-batchsend-main": "src-batchsend-main"
+      },
+      "locked": {
+        "dir": "main",
+        "lastModified": 1651556677,
+        "narHash": "sha256-YgBlS0VZIHmGR+lerogw2eE/D1U5mtSwnfoJeHVDgk0=",
+        "owner": "nim-nix-pkgs",
+        "repo": "batchsend",
+        "rev": "596a054f6aa4cebdfa8e670ded1e13799f4ba86d",
+        "type": "github"
+      },
+      "original": {
+        "dir": "main",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "batchsend",
+        "type": "github"
+      }
+    },
     "flakeNimbleLib": {
       "inputs": {
         "nixpkgs": [
@@ -24,20 +52,22 @@
     "nimpy": {
       "inputs": {
         "flakeNimbleLib": [
+          "batchsend-main",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "batchsend-main",
           "nixpkgs"
         ],
         "src-nimpy-master": "src-nimpy-master"
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1651918222,
-        "narHash": "sha256-+dZ4nkqpWJdJJOA0Hz2xRYPr0KTBDaSA1HewJ0P6hBE=",
+        "lastModified": 1651555767,
+        "narHash": "sha256-48+VDSpx+U1DjE25lm8xGcTGbqxVfCAQki7dVLO5PVs=",
         "owner": "nim-nix-pkgs",
         "repo": "nimpy",
-        "rev": "ed29fc876de8e51f6b5ed3a6d48a20ce7a6f48e8",
+        "rev": "e7f2b159bcfb8257f08b8de9bdc369ca2b56dc24",
         "type": "github"
       },
       "original": {
@@ -61,10 +91,9 @@
     },
     "root": {
       "inputs": {
+        "batchsend-main": "batchsend-main",
         "flakeNimbleLib": "flakeNimbleLib",
-        "nimpy": "nimpy",
-        "nixpkgs": "nixpkgs",
-        "src-batchsend-main": "src-batchsend-main"
+        "nixpkgs": "nixpkgs"
       }
     },
     "src-batchsend-main": {
