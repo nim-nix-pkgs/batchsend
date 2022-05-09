@@ -7,14 +7,6 @@
   inputs.flakeNimbleLib.type  = "github";
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
-  inputs."batchsend-main".dir   = "main";
-  inputs."batchsend-main".owner = "nim-nix-pkgs";
-  inputs."batchsend-main".ref   = "master";
-  inputs."batchsend-main".repo  = "batchsend";
-  inputs."batchsend-main".type  = "github";
-  inputs."batchsend-main".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."batchsend-main".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
-  
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@inputs:
   let 
     lib  = flakeNimbleLib.lib;
